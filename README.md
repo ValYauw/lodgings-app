@@ -16,6 +16,10 @@ API Documentation (in Bahasa Indonesia only):
  - [Admin CMS](api-documentation-CMS.md)
  - [Customer-facing](api-documentation-Customer.md)
 
+Front-end Application:
+ - [Admin CSS](https://github.com/ValYauw/lodgings-app-client-admin)
+ - [Customer-facing app](https://github.com/ValYauw/lodgings-app-client-user)
+
 ## How to run
 
 ```npm install```
