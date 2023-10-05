@@ -4,7 +4,7 @@
     "username": "John Doe",
     "email": "john.doe@mail.com",
     "password": "password",
-    "role": "Staff",
+    "role": "Admin",
     "phoneNumber": "082123456789",
     "address": "Perumahan New York"
   },
@@ -13,7 +13,7 @@
     "username": "Jane Doe",
     "email": "jane.doe@mail.com",
     "password": "password",
-    "role": "User",
+    "role": "Staff",
     "phoneNumber": "082123456789",
     "address": "Perumahan Chicago"
   },

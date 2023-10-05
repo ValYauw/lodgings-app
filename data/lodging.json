@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "name": "Perumahan Chicago",
-    "facility": "Rumah kos yang tertempat di Pesanggrahan, Jakarta Selatan, dekat stasiun KRL. Unit sebesar 12 m2 dan terbuka bagi pria dan putri.",
+    "name": "Chicago Housing",
+    "facility": "Sharehouse located in Pesanggrahan, Jakarta Selatan, near commuter line station. 12 m2 large unit. Open to men and women.",
     "roomCapacity": 16,
     "imgUrl": "https://cdn.britannica.com/59/94459-050-DBA42467/Skyline-Chicago.jpg",
     "authorId": 1,
@@ -12,8 +12,8 @@
   },
   {
     "id": 2,
-    "name": "Perumahan New York",
-    "facility": "Rumah kos yang tertempat di Senayan, Jakarta Selatan, dekat stasiun MRT. Unit sebesar 16 m2 dan khusus putri.",
+    "name": "New York Housing",
+    "facility": "Sharehouse located in Senayan, Jakarta Selatan, near commuter line station. 16 m2 large unit. Women-only.",
     "roomCapacity": 12,
     "imgUrl": "https://media.cntraveler.com/photos/63483e15ef943eff59de603a/16:9/w_1920%2Cc_limit/New%2520York%2520City_GettyImages-1347979016.jpg",
     "authorId": 1,
@@ -23,10 +23,10 @@
   },
   {
     "id": 3,
-    "name": "Perumahan BSD",
-    "facility": "Rumah kos yang tertempat di BSD City. Unit sebesar 12 m2 dan terbuka bagi pria dan putri.",
+    "name": "BSD Housing",
+    "facility": "Sharehouse located in BSD City, Tangerang. 12 m2 large unit. Open to men and women.",
     "roomCapacity": 16,
-    "imgUrl": "https://www.topbusiness.id/wp-content/uploads/2018/04/BSD-City-NewCities-Foundation.jpg",
+    "imgUrl": "https://pict.sindonews.net/dyn/850/pena/news/2023/05/26/171/1109375/5-alasan-ice-bsd-selalu-menjadi-tempat-konser-artis-top-dunia-lud.jpg",
     "authorId": 2,
     "location": "BSD City",
     "price": 900000,
@@ -34,8 +34,8 @@
   },
   {
     "id": 4,
-    "name": "Apartemen Taman Anggrek",
-    "facility": "Apartemen yang disewakan bagi para pekerja kantor. Tertempat di tempat strategis, dekat halte Busway, halte minibus, dan stasiun KRL. Berjarak 5 menit dari mall Taman Anggrek.",
+    "name": "Apartement Taman Anggrek",
+    "facility": "Fully-furnished apartment, ready to live in. Located near the Busway, minibus, and commuter line stations. 5 minutes walk from Mall Taman Anggrek.",
     "roomCapacity": 2,
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Mall_culture_jakarta86.jpg",
     "authorId": 2,
@@ -46,12 +46,89 @@
   {
     "id": 5,
     "name": "Rumah Casablanca PIK",
-    "facility": "Rumah kontrak, tertempat di dekat pantai, 15 menit dari pusat PIK.",
+    "facility": "Available for long-term stay. Located near the Jakartan shore, 15 minutes from the centre of Pantai Indah Kapuk.",
     "roomCapacity": 4,
     "imgUrl": "https://akcdn.detik.net.id/community/media/visual/2022/01/27/pantjoran-pik-6_43.jpeg?w=700&q=90",
     "authorId": 1,
     "location": "Kebun Jeruk",
     "price": 6000000,
     "typeId": 2
+  },
+  {
+    "id": 6,
+    "name": "Apartment SCBD",
+    "facility": "Apartment in the heart of Jakarta",
+    "roomCapacity": 3,
+    "imgUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/363022710.jpg?k=b72cc0a5600c57b61352bfdf9fa51a4b582b1f2a7a4969817a42949ef1983df8&o=&hp=1",
+    "authorId": 1,
+    "location": "Senayan",
+    "price": 5000000,
+    "typeId": 3
+  },
+  {
+    "id": 7,
+    "name": "Penthouse London",
+    "facility": "Penthouse Apartment in Sudirman, South Jakarta",
+    "roomCapacity": 5,
+    "imgUrl": "https://realestatevietnam.com.vn/wp-content/uploads/2018/06/Apartment-design-project-Penthouse-Vinhomes-Central-Park.jpg",
+    "authorId": 2,
+    "location": "Sudirman",
+    "price": 8000000,
+    "typeId": 3
+  },
+  {
+    "id": 8,
+    "name": "The Palace Apartment",
+    "facility": "High-end apartment located in Yogyakarta, Indonesia.",
+    "roomCapacity": 3,
+    "imgUrl": "https://cdn.shortpixel.ai/spai/w_1756+q_lossy+ret_img+to_webp/https://thepalacejogja.com/wp-content/uploads/2019/08/apartemen-murah-di-jalan-kaliurang-yogyakarta-the-palace-jogja-Copy.jpeg",
+    "authorId": 2,
+    "location": "Yogyakarta",
+    "price": 4000000,
+    "typeId": 3
+  },
+  {
+    "id": 9,
+    "name": "Blue Condo",
+    "facility": "Apartment complex, located in the heart of Yogyakarta",
+    "roomCapacity": 3,
+    "imgUrl": "https://mamikos.com/info/wp-content/uploads/2018/08/apartemen-jogja.jpg",
+    "authorId": 1,
+    "location": "Yogyakarta",
+    "price": 32000000,
+    "typeId": 3
+  },
+  {
+    "id": 10,
+    "name": "Penthouse Skyhouse",
+    "facility": "Penthouse Apartment located in Bandung, Indonesia.",
+    "roomCapacity": 4,
+    "imgUrl": "https://hips.hearstapps.com/hmg-prod/images/172-madison-avenue-kfa-32-1560878194.jpg?crop=0.668xw:1.00xh;0.213xw,0&resize=640:*",
+    "authorId": 2,
+    "location": "Bandung",
+    "price": 5000000,
+    "typeId": 3
+  },
+  {
+    "id": 11,
+    "name": "Rumah Bogor Uni",
+    "facility": "Rental house located in Bogor.",
+    "roomCapacity": 4,
+    "imgUrl": "https://media.dekoruma.com/dekohouse/property/real-estate/MCDK-AVRA/perumahan-avoria-estate-bogor-general-fasad-7.jpg?bg-color=FFFFFF&dpr=1.5&fit=crop&height=412&optimize=medium&quality=50&width=412",
+    "authorId": 2,
+    "location": "Bogor",
+    "price": 6000000,
+    "typeId": 2
+  },
+  {
+    "id": 12,
+    "name": "Kos Studento BSD",
+    "facility": "Sharehouse located in Pagedangan, BSD City.",
+    "roomCapacity": 5,
+    "imgUrl": "https://images.rukita.co/buildings/building/Rukita-Foresta-BSD-9_Feb2020_12.jpg?tr=w-800",
+    "authorId": 1,
+    "location": "BSD City",
+    "price": 2200000,
+    "typeId": 1
   }
 ]
