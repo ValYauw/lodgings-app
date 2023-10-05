@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "name": "Perumahan Chicago",
+    "facility": "Rumah kos yang tertempat di Pesanggrahan, Jakarta Selatan, dekat stasiun KRL. Unit sebesar 12 m2 dan terbuka bagi pria dan putri.",
+    "roomCapacity": 16,
+    "imgUrl": "https://cdn.britannica.com/59/94459-050-DBA42467/Skyline-Chicago.jpg",
+    "authorId": 1,
+    "location": "Pesanggrahan",
+    "price": 400000,
+    "typeId": 1
+  },
+  {
+    "id": 2,
+    "name": "Perumahan New York",
+    "facility": "Rumah kos yang tertempat di Senayan, Jakarta Selatan, dekat stasiun MRT. Unit sebesar 16 m2 dan khusus putri.",
+    "roomCapacity": 12,
+    "imgUrl": "https://media.cntraveler.com/photos/63483e15ef943eff59de603a/16:9/w_1920%2Cc_limit/New%2520York%2520City_GettyImages-1347979016.jpg",
+    "authorId": 1,
+    "location": "Senayan",
+    "price": 800000,
+    "typeId": 1
+  },
+  {
+    "id": 3,
+    "name": "Perumahan BSD",
+    "facility": "Rumah kos yang tertempat di BSD City. Unit sebesar 12 m2 dan terbuka bagi pria dan putri.",
+    "roomCapacity": 16,
+    "imgUrl": "https://www.topbusiness.id/wp-content/uploads/2018/04/BSD-City-NewCities-Foundation.jpg",
+    "authorId": 2,
+    "location": "BSD City",
+    "price": 900000,
+    "typeId": 1
+  },
+  {
+    "id": 4,
+    "name": "Apartemen Taman Anggrek",
+    "facility": "Apartemen yang disewakan bagi para pekerja kantor. Tertempat di tempat strategis, dekat halte Busway, halte minibus, dan stasiun KRL. Berjarak 5 menit dari mall Taman Anggrek.",
+    "roomCapacity": 2,
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Mall_culture_jakarta86.jpg",
+    "authorId": 2,
+    "location": "Kebun Jeruk",
+    "price": 2000000,
+    "typeId": 3
+  },
+  {
+    "id": 5,
+    "name": "Rumah Casablanca PIK",
+    "facility": "Rumah kontrak, tertempat di dekat pantai, 15 menit dari pusat PIK.",
+    "roomCapacity": 4,
+    "imgUrl": "https://akcdn.detik.net.id/community/media/visual/2022/01/27/pantjoran-pik-6_43.jpeg?w=700&q=90",
+    "authorId": 1,
+    "location": "Kebun Jeruk",
+    "price": 6000000,
+    "typeId": 2
+  }
+]

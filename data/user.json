@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "username": "John Doe",
+    "email": "john.doe@mail.com",
+    "password": "password",
+    "role": "Staff",
+    "phoneNumber": "082123456789",
+    "address": "Perumahan New York"
+  },
+  {
+    "id": 2,
+    "username": "Jane Doe",
+    "email": "jane.doe@mail.com",
+    "password": "password",
+    "role": "User",
+    "phoneNumber": "082123456789",
+    "address": "Perumahan Chicago"
+  },
+  {
+    "id": 3,
+    "username": "Jack Dow",
+    "email": "jack.dow@mail.com",
+    "password": "password",
+    "role": "User",
+    "phoneNumber": "08289123341",
+    "address": "Perumahan BSD"
+  },
+  {
+    "id": 4,
+    "username": "Koki Masryani",
+    "email": "koki.masryani@mail.com",
+    "password": "password",
+    "role": "User",
+    "phoneNumber": "082234567812",
+    "address": "Perumahan BSD"
+  },
+  {
+    "id": 5,
+    "username": "Aceng Surecep",
+    "email": "aceng.surecep@mail.com",
+    "password": "password",
+    "role": "User",
+    "phoneNumber": "08267612334",
+    "address": "Perumahan BSD"
+  }
+]

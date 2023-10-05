@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Sharehouse"
+  },
+  {
+    "id": 2,
+    "name": "Rental"
+  },
+  {
+    "id": 3,
+    "name": "Apartment"
+  }
+]
