@@ -17,8 +17,8 @@ API Documentation (in Bahasa Indonesia only):
  - [Customer-facing](api-documentation-Customer.md)
 
 Front-end Application:
- - [Admin CSS](https://github.com/ValYauw/lodgings-app-client-admin)
- - [Customer-facing app](https://github.com/ValYauw/lodgings-app-client-user)
+ - [Admin CSS](https://github.com/ValYauw/lodgings-app/tree/main/frontend-cms)
+ - [Customer-facing app](https://github.com/ValYauw/lodgings-app/main/frontend-user)
 
 ## How to run
 

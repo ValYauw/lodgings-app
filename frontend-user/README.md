@@ -1,6 +1,6 @@
 # Lodgings App
 
-A client application for a lodgings rental platform (customer-facing application). Use alongside the server application [lodgings-app-server](https://github.com/ValYauw/lodgings-app-server).
+A client application for a lodgings rental platform (customer-facing application).
 
 Tech stack:
  - Vue.js
