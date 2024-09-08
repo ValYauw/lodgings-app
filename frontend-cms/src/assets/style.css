@@ -1,0 +1,125 @@
+:root {
+  --bg-color-1: #B0A3BD;
+  --bg-color-2: #DCADBC;
+  --fg-color-1: #EEE5C2;
+  --fg-color-2: #E6BC95;
+  --shadow-color: #90B3AF;
+  --txt-color: #530038;
+}
+
+body {
+  background: var(--fg-color-1) !important;
+}
+body * {
+  color: var(--txt-color);
+}
+#home-section {
+  background: var(--fg-color-1);
+}
+::-moz-selection {
+  background: var(--txt-color) !important;
+  color: var(--bg-color-2) !important;
+}
+::selection {
+  background: var(--txt-color) !important;
+  color: var(--bg-color-2) !important;
+}
+
+/* Material Icons */
+.ui.vertical.menu .item i.material-icons-outlined {
+  font-size: 1.3em !important;
+  float: right;
+  margin: 0 0 0 0em
+}
+.statistic i.material-icons-outlined {
+  font-size: 48px !important;
+}
+.ui.input i.icon {
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
+}
+.ui.input .material-icons-outlined {
+  margin: auto !important;
+}
+
+/* UI Tables */
+.ui.table thead, .ui.table th {
+  background-color: var(--txt-color) !important;
+  color: var(--fg-color-1) !important;
+}
+.ui.table img {
+  max-width: 100%;
+  width: 100%;
+}
+.ui.table thead {
+  position: sticky;
+  top:0px;
+}
+
+/* UI Buttons */
+.ui.button.main {
+  background-color: var(--txt-color);
+  opacity: 0.8;
+  color: var(--bg-color-2) !important;
+}
+.ui.button.main:hover {
+  background-color: var(--txt-color);
+  opacity: 1.0;
+}
+.ui.button > i.icon {
+  color: var(--bg-color-2) !important;
+}
+
+/* UI Forms */
+.ui.form {
+  background-color: var(--fg-color-2);
+  border-radius: 10px;
+  border: var(--txt-color) 1px solid;
+  padding: 40px 80px;
+  box-shadow: var(--bg-color-1) 0px 5px 10px;
+  opacity: 0.7;
+}
+.required-field-label {
+  color: red;
+  font-style: italic;
+  vertical-align: top;
+  font-size: smaller;
+}
+
+/* Responsive elements: only show when viewport width is small/collapsed */
+.collapsed {
+  display: none !important;
+}
+
+.v-toast__text, .v-toast__text * {
+  color: white !important;
+}
+
+@media only screen and (max-width: 767px) {
+
+  .ui.grid > .column {
+    border-bottom: 1px solid rgba(34,36,38,.15);
+  }
+
+  /* UI Tables */
+  .ui.table > thead > tr {
+    background-color: var(--txt-color) !important;
+    /* padding-top: 0px !important;
+    padding-bottom: 0px !important; */
+  }
+
+  .ui.form {
+    padding: 40px 20px;
+  }
+
+  .ui.table thead {
+    position: initial;
+  }
+
+  /* Responsive elements: only show when viewport width is small/collapsed */
+  .collapsed {
+    display: inline !important;
+  }
+
+}

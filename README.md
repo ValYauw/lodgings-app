@@ -1,62 +1,44 @@
 # Lodgings App
 
-A RESTful API for a web application for a lodgings rental platform.
+A full-stack web application for a lodgings rental platform.
 
-Serves data for an admin Content Management System and a public customer-facing website.
+Tech stack:
+ - Vue.js
+ - Pinia (State Management)
+ - Semantic UI (CSS Library)
+ - Node.js (Express) REST API with PostgreSQL Database
+ - Axios
+ - Vue Toast Notification
 
-Main features include:
+Main features:
  - OAuth user authentication
  - Social Media (Google) Login
  - Filter lodgings based on min. room capacity, lodging type, max. price, and posting status
  - Search lodgings based on title
  - Pagination
  - Save user bookmarks
+ - CSS & layouting: Responsive Design
 
-API Documentation (in Bahasa Indonesia only):
- - [Admin CMS](api-documentation-CMS.md)
- - [Customer-facing](api-documentation-Customer.md)
+## Demo Screenshots
 
-Front-end Application:
- - [Admin CSS](https://github.com/ValYauw/lodgings-app-client-admin)
- - [Customer-facing app](https://github.com/ValYauw/lodgings-app-client-user)
+### Homepage
+![Homepage](demo-screenshots/home.png)
 
-## How to run
+### List all lodgings
+![Show lodgings](demo-screenshots/browse-lodgings-and-filter.png)
 
-```npm install```
+![Detailed lodging page](demo-screenshots/detailed-lodging-page.png)
 
-Install packages and dependencies.
+### User bookmarks
+![Create New Lodging](demo-screenshots/bookmarks.png)
 
-```bash dbsetup-sequelize.sh```
+### Content Management System
+![Admin Dashboard](demo-screenshots/cms-dashboard.PNG)
 
-Migrates and seeds database in development and testing environments. [Requires sequelize-cli]
+![List of Lodgings](demo-screenshots/cms-list-lodgings.PNG)
 
-Database configuration options can be changed in `config/config.json`.
+![List of Staff](demo-screenshots/cms-list-staff.PNG)
 
-```npm start```
+![Create New Lodging](demo-screenshots/cms-form-add-lodging.png)
 
-Start Node.js application.
-
-```bash dbdrop-sequelize.sh```
-
-Drops the database in development and testing environments. [Requires sequelize-cli]
-
-```npm run test```
-
-Run tests.
-
-## Tech Stack
-
- - PostgreSQL Database
- - Express.js
- - ORM Sequelize
- - JSON Web Token (user authentication)
- - bcryptjs (password hashing)
-
-### Third Party APIs
-
- - Google Authentication Library
- - [QR Code Generator Service](https://www.qr-code-generator.com/qr-code-api/)
-
-## Database Schema
-
-![ERD](ERD.png)
+![Editing History](demo-screenshots/cms-editing-history.PNG)

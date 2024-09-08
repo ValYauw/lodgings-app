@@ -1,0 +1,210 @@
+:root {
+  --bg-color-1: #B0A3BD;
+  --bg-color-2: #DCADBC;
+  --fg-color-1: #EEE5C2;
+  --fg-color-2: #E6BC95;
+  --shadow-color: #90B3AF;
+  --txt-color: #530038;
+}
+
+body {
+  background: var(--fg-color-1) !important;
+}
+body * {
+  color: var(--txt-color);
+}
+section {
+  margin: 20px 40px 40px 40px;
+  padding-bottom: 40px;
+}
+#home-section {
+  background: var(--fg-color-1);
+}
+::-moz-selection {
+  background: var(--txt-color) !important;
+  color: var(--bg-color-2) !important;
+}
+::selection {
+  background: var(--txt-color) !important;
+  color: var(--bg-color-2) !important;
+}
+
+/* Material Icons */
+.ui.vertical.menu .item i.material-icons-outlined {
+  font-size: 1.3em !important;
+  float: right;
+  margin: 0 0 0 0em
+}
+.statistic i.material-icons-outlined {
+  font-size: 48px !important;
+}
+.ui.input i.icon {
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
+}
+.ui.input .material-icons-outlined {
+  margin: auto !important;
+}
+
+/* UI Tables */
+.ui.table thead, .ui.table th {
+  background-color: var(--txt-color) !important;
+  color: var(--fg-color-1) !important;
+}
+.ui.table img {
+  max-width: 100%;
+  width: 100%;
+}
+.ui.table thead {
+  position: sticky;
+  top:0px;
+}
+
+/* UI Buttons */
+.ui.button.main {
+  background-color: var(--txt-color);
+  opacity: 0.8;
+  color: var(--bg-color-2) !important;
+}
+.ui.button.main:hover {
+  background-color: var(--txt-color);
+  opacity: 1.0;
+}
+.ui.button > i.icon {
+  color: var(--bg-color-2) !important;
+}
+
+/* UI Forms */
+.required-field-label {
+  color: red;
+  font-style: italic;
+  vertical-align: top;
+  font-size: smaller;
+}
+
+/* Responsive elements: only show when viewport width is small/collapsed */
+.collapsed {
+  display: none !important;
+}
+
+.v-toast__text, .v-toast__text * {
+  color: white !important;
+}
+
+/* Login/register */
+#login-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#form-block {
+  flex-grow: 0.8;
+}
+#text-block {
+  padding: 20px;
+}
+#form-block {
+  border-radius: 10px;
+  padding: 40px 80px;
+  background-color: var(--fg-color-2);
+  border: var(--txt-color) 1px solid;
+  box-shadow: var(--bg-color-1) 0px 5px 10px;
+  opacity: 0.7;
+}
+#glogin {
+  display: flex;
+  justify-content: center;
+}
+.ui.horizontal.divider {
+  margin-top: 40px;
+}
+
+/* UI Cards */
+.ui.cards {
+  /* background-color: var(--fg-color-2); */
+  max-width: 920px;
+}
+.card, .card-image {
+  border-radius: 15px !important;
+}
+/* .card > .content {
+  background-color: var(--fg-color-2) !important;
+} */
+.card-image {
+  width: 100%;
+  height: 170px;
+  background-color: var(--bg-color-1);
+}
+.card-image > img {
+  border-radius: 10px 10px 0px 0px !important;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.card .header {
+  margin-bottom: 10px;
+}
+div.meta {
+  display: flex;
+  justify-content: space-between;
+}
+div.meta .material-icons-outlined, div.content .material-icons-outlined {
+  font-size: 18px;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+
+/* Search & filter */
+.ui.search {
+  max-height: fit-content;
+  width: 100%;
+  padding: 20px 0px 40px 0px;
+}
+
+.modal svg {
+  max-width: 100vw;
+  max-height: 90vh;
+}
+
+@media only screen and (max-width: 767px) {
+
+  section {
+    margin: 0px 20px 40px 20px;
+  }
+
+  .ui.grid > .column {
+    border-bottom: 1px solid rgba(34,36,38,.15);
+  }
+
+  /* UI Tables */
+  .ui.table > thead > tr {
+    background-color: var(--txt-color) !important;
+    /* padding-top: 0px !important;
+    padding-bottom: 0px !important; */
+  }
+
+  .ui.table thead {
+    position: initial;
+  }
+
+  /* Responsive elements: only show when viewport width is small/collapsed */
+  .collapsed {
+    display: inline !important;
+  }
+
+  /* Collapse grid for login section */
+  #login-container {
+    display: block;
+  }
+  #text-block {
+    text-align: center;
+  }
+  #login-container .ui.vertical.divider {
+    display: none;
+  }
+
+}
